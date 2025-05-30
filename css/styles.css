@@ -101,6 +101,7 @@ main {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand);
+  padding: 15px 0;
 }
 
 .header-studio {
@@ -140,6 +141,10 @@ main {
 
   .nav-list {
     display: flex;
+  }
+
+  .logo-header {
+    padding: 24px 0;
   }
 
   .contacts {
