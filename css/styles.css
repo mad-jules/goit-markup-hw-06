@@ -273,7 +273,6 @@ main {
 
 @media screen and (min-width: 768px) {
   .nav-link.active {
-    color: var(--pressed-state);
     position: relative;
   }
 }
@@ -281,12 +280,6 @@ main {
 @media screen and (min-width: 768px) {
   .contact-item {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .contact-item:focus {
-    color: var(--pressed-state);
   }
 }
 
@@ -344,7 +337,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--modal-background);
+  background: var(--white-background);
   padding: 24px 24px 40px 16px;
 }
 
@@ -410,11 +403,6 @@ main {
   line-height: 1.2;
 }
 
-.mobile-menu-contact-item:focus,
-.mobile-nav-link:focus {
-  color: var(--pressed-state);
-}
-
 .mobile-social-list {
   display: flex;
   justify-content: center;
@@ -430,10 +418,6 @@ main {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-}
-
-.mobile-social-link:focus {
-  background-color: var(--success);
 }
 
 .mobile-social-list-item {
