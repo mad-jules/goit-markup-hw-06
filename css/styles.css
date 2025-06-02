@@ -465,7 +465,7 @@ main {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/background/hero-bg-mob@2x.jpg);
+      url(../images/background/hero-bg-mobile@2x.jpg);
   }
 }
 
@@ -747,6 +747,10 @@ main {
   line-height: 0;
 }
 
+.team-icon-list {
+  gap: 16px;
+}
+
 .socialmedia-link {
   display: flex;
   justify-content: center;
@@ -885,6 +889,7 @@ main {
 .footer {
   display: flex;
   background-color: var(--dark);
+  padding: 96px 0;
 }
 
 @media screen and (min-width: 1158px) {
@@ -894,8 +899,6 @@ main {
 }
 
 .footer-container {
-  padding-top: 96px;
-  padding-bottom: 96px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -919,7 +922,7 @@ main {
     align-items: baseline;
     gap: 0;
     flex-wrap: nowrap;
-    padding: 0;
+    padding: 0 16px;
   }
 }
 
@@ -1024,6 +1027,7 @@ main {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    margin-bottom: 0;
   }
 }
 
